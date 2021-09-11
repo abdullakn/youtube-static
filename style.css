@@ -78,6 +78,48 @@ nav{
 }
 .nav-middle .search-box img{
     width: 15px;
-        
+
 
 }
+
+/* nav bar ended */
+
+/* side bar started */
+
+.sidebar{
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+}
+
+.shortcuts-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap; 
+}
+
+
+.shortcuts-links a img{
+    width: 20px;
+    margin-right: 20px;
+  
+}
+
+.shortcuts-links a:first-child{
+    color: #ed3833;
+}
+
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    width: 85%;
+}
+
+/* side bar ended */
